@@ -1,3 +1,3 @@
 MAC = "AAAA:BBBB:CCCC"
-MAC = '.'.join(MAC.split(':'))
+MAC = MAC.replace(':','.')
 print(MAC)
